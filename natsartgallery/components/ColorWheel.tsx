@@ -9,7 +9,7 @@ export default function ColorWheel() {
   return (
     <Fragment>
       <Wheel color={hsva} onChange={(color) => setHsva({ ...hsva, ...color.hsva })} />
-      <div style={{ width: '50%', height: '50%', marginTop: 20, background: hsvaToHex(hsva) }}></div>
+      <div style={{ width: '50%', height: '50%', marginTop: 20, background: hsvaToHex(hsva) }}>hello</div>
     </Fragment>
   );
 }
