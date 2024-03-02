@@ -2,6 +2,10 @@
 /* three wheels to cover buttons, text and background. the background will have to use 
 alpha channel to modify lightness/opacity*/
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,body, #root, .App {
     height: 100%;
 }

@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 export function ImageCards() {
     return (
+        <>
         <Card>
             <Card.Img variant='' src="../public/Drawings/IMG_3959.JPG" />
             <Card.Body>
@@ -11,5 +12,6 @@ export function ImageCards() {
                 <Button>TBD</Button>
             </Card.Body>
         </Card>
+        </>
     );
 }
