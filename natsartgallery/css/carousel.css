@@ -1,0 +1,29 @@
+#imagecard {
+    height: 25rem;
+    max-width: 320px;
+    padding: 1em;
+    display: inline-block;
+    align-items: center;
+    margin:auto 1rem;
+    justify-items: center;
+    background-color: rgb(236, 245, 245);
+}
+
+#carousel_container {
+    position: relative;
+    top: 15rem;
+}
+
+#imagecarousel {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    max-width: 75%;
+    left: 50%;
+    top: 50%;
+}
+
+#carouselheading {
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
