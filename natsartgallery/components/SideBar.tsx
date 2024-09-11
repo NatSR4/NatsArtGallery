@@ -1,3 +1,5 @@
+//this is no longer on display
+
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import './../css/sidebar.css';
 
@@ -12,5 +14,5 @@ export default function SideBar() {
             </SubMenu>
             </Menu>
         </Sidebar>
-    )
+    );
 }

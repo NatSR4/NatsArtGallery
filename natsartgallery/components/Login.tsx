@@ -1,5 +1,6 @@
+//Login Form within the Login Modal - no backend yet
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+import Button from '@mui/material/Button';
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Login()  {
@@ -12,6 +13,7 @@ export default function Login()  {
                 <Form.Control type="email" placeholder="Enter email" />
                 <Form.Text>Please enter the email address you have with us</Form.Text>
             </Form.Group>
+            
             <Form.Group>
                 <Form.Label>
                     Password
@@ -19,7 +21,7 @@ export default function Login()  {
                 <Form.Control type="password" placeholder="Enter password" />
                 <Form.Text>Please enter your password</Form.Text>
             </Form.Group>
-            <Button>Logout</Button>
+            <Button variant='outlined'>Logout</Button>
         </Form>
     );
 }

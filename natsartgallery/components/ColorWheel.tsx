@@ -1,5 +1,5 @@
-
 'use client';
+//This component is no longer used for display
 import React, { useState, Fragment } from 'react';
 import Wheel from '@uiw/react-color-wheel';
 import { hsvaToHex } from '@uiw/color-convert';
@@ -13,5 +13,3 @@ export default function ColorWheel() {
     </Fragment>
   );
 }
-
-//export default ColorWheel;

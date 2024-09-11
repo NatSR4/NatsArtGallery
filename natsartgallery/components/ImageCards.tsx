@@ -1,17 +1,23 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+//Card for posts in card carousel, atm only support for images and no backend
+import Image from 'next/image';
+import '../css/carousel.css'
 
-export function ImageCards() {
+
+type imageData = {
+    url: string,
+    name: string,
+    date: string,
+    id: number,
+};
+
+export default function ImageCards(props: imageData) {
     return (
         <>
-        <Card>
-            <Card.Img variant='' src="../public/Drawings/IMG_3959.JPG" />
-            <Card.Body>
-                <Card.Title>Margaret Hamilton</Card.Title>
-                <Card.Text> Spring 2019</Card.Text>
-                <Button>TBD</Button>
-            </Card.Body>
-        </Card>
+            <div id='imagecard'>
+                <Image src={props.url} alt={props.name} width={200} height={150} />
+                <h3>{props.name}</h3>   
+                <p>{props.date}</p>
+            </div>
         </>
     );
 }

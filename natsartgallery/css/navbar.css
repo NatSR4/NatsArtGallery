@@ -2,8 +2,24 @@
 
 #navbar {
     font-family: 'Allison',cursive;
-    font-size: 60px;
-    text-align: center;
+    font-size: 5rem;
+    text-align: 'center';
     color: #ffffff;
     background-color: #f3aacb;
+    justify-content: center;
+    position: relative;
+}
+
+#log_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 1rem;
+}
+
+#colorpicker {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    padding-left: 1rem;
 }
