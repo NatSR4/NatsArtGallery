@@ -1,6 +1,6 @@
 //Navigation Bar, has button for Login Modal and Color Picker
 
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import './../css/navbar.css';
 import Button from '@mui/material/Button';
@@ -12,12 +12,19 @@ import ColorPicker from './ColorPicker';
 
 export default function NavBar() {
    //show and hide modal 
-   const [showModal, setShowModal] = React.useState(false);
 
+   
+   const [showModal, setShowModal] = useState(false);
+   const [pickColor, setPickColor] = useState("#f3aacb");
+   const changeBackground = (e:React.ChangeEvent<HTMLInputElement>) => {
+    setPickColor(e.target.value);
+    {pickColor}
+   }
    return (
-    <Navbar fixed='top' text-align='center' id='navbar'>
+    <Navbar fixed='top' text-align='center' id='navbar' style={{backgroundColor:`${pickColor}`}} >
       <div id='colorpicker'>
-        <ColorPicker/>
+        <ColorPicker onColorChange  = {changeBackground} color={pickColor}/>
+        
       </div>
       Welcome to Nat's Art Gallery!         
       <div id='log_button'>
