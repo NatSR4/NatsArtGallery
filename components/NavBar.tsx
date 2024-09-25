@@ -26,7 +26,7 @@ export default function NavBar() {
         <ColorPicker onColorChange  = {changeBackground} color={pickColor}/>
         
       </div>
-      Welcome to Nat's Art Gallery!         
+      Welcome to Nat's Art Gallery!   work pls      
       <div id='log_button'>
         <Button color="secondary" onClick={() => setShowModal(true)}>Login</Button>
       </div>
