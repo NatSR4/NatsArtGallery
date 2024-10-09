@@ -2,12 +2,13 @@
 
 #navbar {
     font-family: 'Allison',cursive;
-    font-size: 5rem;
+    font-size: 8vw;
     text-align: 'center';
     color: #ffffff;
     background-color: #f3aacb;
     justify-content: center;
     position: relative;
+    padding: 0%;
 }
 
 #log_button {
@@ -19,7 +20,7 @@
 
 #colorpicker {
     position: absolute;
-    top: 3rem;
+   
     left: 0;
     padding-left: 1rem;
 }

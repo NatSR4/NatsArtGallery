@@ -1,5 +1,5 @@
 #imagecard {
-    height: 25rem;
+    height: 100%;
     max-width: 320px;
     padding: 1em;
     display: inline-block;
@@ -11,19 +11,22 @@
 
 #carousel_container {
     position: relative;
-    top: 15rem;
+    top: 13rem;
+    
+
 }
 
 #imagecarousel {
     position: absolute;
     transform: translate(-50%, -50%);
-    max-width: 75%;
+    max-width: 50%;
     left: 50%;
     top: 50%;
+  
 }
 
 #carouselheading {
-    font-size: 2rem;
+    font-size: 4vw;
     text-align: center;
     color: #ffffff;
 }

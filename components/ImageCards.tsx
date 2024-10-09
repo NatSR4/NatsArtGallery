@@ -14,7 +14,7 @@ export default function ImageCards(props: imageData) {
     return (
         <>
             <div id='imagecard'>
-                <Image src={props.url} alt={props.name} width={200} height={150} />
+                <Image src={props.url} alt={props.name} width={100} height={150} />
                 <h3>{props.name}</h3>   
                 <p>{props.date}</p>
             </div>

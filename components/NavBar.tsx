@@ -10,6 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ColorPicker from './ColorPicker';
 
 
+const responsiveSize = {
+  }
+
 export default function NavBar() {
    //show and hide modal 
 
@@ -26,7 +29,7 @@ export default function NavBar() {
         <ColorPicker onColorChange  = {changeBackground} color={pickColor}/>
         
       </div>
-      Welcome to Nat's Art Gallery!   work pls      
+      Nat's Art Gallery!    
       <div id='log_button'>
         <Button color="secondary" onClick={() => setShowModal(true)}>Login</Button>
       </div>

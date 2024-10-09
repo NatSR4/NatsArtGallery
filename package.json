@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mui/icons-material": "^6.1.1",
+    "@mui/material": "^6.1.1",
     "@uiw/react-color-wheel": "^2.0.5",
     "bootstrap": "^5.3.2",
-    "express": "^4.18.3",
-    "next": "14.0.4",
+    "express": "^4.21.0",
+    "next": "^14.2.13",
     "pg": "^8.11.3",
     "react": "^18",
     "react-bootstrap": "^2.9.2",

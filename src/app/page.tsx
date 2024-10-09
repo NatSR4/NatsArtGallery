@@ -11,8 +11,9 @@ import Footer from '../../components/Footer';
 export default function Home() {
 
   return (
-    <main id='body'>
-        <div><div><NavBar/></div>
+    <main >
+        <div >
+          <div><NavBar/></div>
           <div id='carousel_container'>
           <div id='imagecarousel'>
           <ImageCarousel />
